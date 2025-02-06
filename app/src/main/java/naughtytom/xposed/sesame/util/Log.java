@@ -1,8 +1,8 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import fansirsqi.xposed.sesame.BuildConfig;
-import fansirsqi.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.BuildConfig;
+import naughtytom.xposed.sesame.model.BaseModel;
 /**
  * 日志工具类，负责初始化和管理各种类型的日志记录器，并提供日志输出方法。
  */

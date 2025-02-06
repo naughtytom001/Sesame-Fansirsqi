@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.util.Log;
 import lombok.Getter;
 public abstract class Model {
     private static final Map<String, ModelConfig> modelConfigMap = new LinkedHashMap<>();

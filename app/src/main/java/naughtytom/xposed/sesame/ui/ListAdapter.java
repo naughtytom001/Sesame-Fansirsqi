@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
-import fansirsqi.xposed.sesame.entity.MapperEntity;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.SelectModelFieldFunc;
+import naughtytom.xposed.sesame.entity.MapperEntity;
+import naughtytom.xposed.sesame.util.Log;
 import java.util.*;
 public class ListAdapter extends BaseAdapter {
     @SuppressLint("StaticFieldLeak")

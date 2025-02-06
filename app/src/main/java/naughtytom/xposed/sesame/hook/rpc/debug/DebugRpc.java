@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.hook.rpc.debug;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.task.reserve.ReserveRpcCall;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ResUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+package naughtytom.xposed.sesame.hook.rpc.debug;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.task.reserve.ReserveRpcCall;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

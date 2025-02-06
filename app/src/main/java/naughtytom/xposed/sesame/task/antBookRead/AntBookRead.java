@@ -1,15 +1,15 @@
-package fansirsqi.xposed.sesame.task.antBookRead;
+package naughtytom.xposed.sesame.task.antBookRead;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.data.RuntimeInfo;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.RandomUtil;
-import fansirsqi.xposed.sesame.util.StringUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.data.RuntimeInfo;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.util.StringUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 public class AntBookRead extends ModelTask {
     private static final String TAG = AntBookRead.class.getSimpleName();
     @Override

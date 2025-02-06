@@ -1,7 +1,7 @@
-package fansirsqi.xposed.sesame.task.antForest;
+package naughtytom.xposed.sesame.task.antForest;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ResUtil;
 public class GreenLife {
     public static final String TAG = GreenLife.class.getSimpleName();
     /** 森林集市 */

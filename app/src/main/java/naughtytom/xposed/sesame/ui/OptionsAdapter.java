@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 /*
  * @Description: 好友统计，列表长按菜单
  * @UpdateDate: 2024/10/23

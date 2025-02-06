@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.antDodo;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.RandomUtil;
+package naughtytom.xposed.sesame.task.antDodo;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.RandomUtil;
 public class AntDodoRpcCall {
     /* 神奇物种 */
     public static String queryAnimalStatus() {

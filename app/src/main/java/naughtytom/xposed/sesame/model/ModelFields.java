@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import java.util.LinkedHashMap;
 //@Data
 public final class ModelFields extends LinkedHashMap<String, ModelField<?>> {

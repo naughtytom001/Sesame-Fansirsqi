@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import java.util.Calendar;
 import java.util.Date;
@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.antForest.AntForest;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.antForest.AntForest;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
 import lombok.Data;
 @Data
 public class StatusUtil {

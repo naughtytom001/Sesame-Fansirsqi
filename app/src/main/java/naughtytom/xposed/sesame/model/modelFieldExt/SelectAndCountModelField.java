@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model.modelFieldExt;
+package naughtytom.xposed.sesame.model.modelFieldExt;
 import android.content.Context;
 import android.view.Gravity;
 import android.view.View;
@@ -6,11 +6,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
-import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
-import fansirsqi.xposed.sesame.entity.MapperEntity;
-import fansirsqi.xposed.sesame.ui.ListDialog;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.model.SelectModelFieldFunc;
+import naughtytom.xposed.sesame.entity.MapperEntity;
+import naughtytom.xposed.sesame.ui.ListDialog;
 import java.util.List;
 import java.util.Map;
 /**

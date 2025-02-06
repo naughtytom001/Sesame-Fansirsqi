@@ -1,10 +1,10 @@
-package fansirsqi.xposed.sesame.task.antMember;
+package naughtytom.xposed.sesame.task.antMember;
 import org.json.JSONException;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.RandomUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.entity.RpcEntity;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 public class AntMemberRpcCall {
     private static String getUniqueId() {
         return String.valueOf(System.currentTimeMillis()) + RandomUtil.nextLong();

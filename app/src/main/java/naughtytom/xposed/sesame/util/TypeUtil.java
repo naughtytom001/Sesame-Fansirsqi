@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 import java.lang.reflect.Field;

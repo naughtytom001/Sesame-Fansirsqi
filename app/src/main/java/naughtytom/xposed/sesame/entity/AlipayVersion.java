@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import lombok.Getter;
 /**
  * 表示支付宝版本的实体类，可进行版本比较。

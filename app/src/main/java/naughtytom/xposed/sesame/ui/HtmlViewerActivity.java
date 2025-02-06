@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.annotation.SuppressLint;
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -15,11 +15,11 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.LanguageUtil;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ToastUtil;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.LanguageUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ToastUtil;
 public class HtmlViewerActivity extends BaseActivity {
     private static final String TAG = HtmlViewerActivity.class.getSimpleName();
     MyWebView mWebView;

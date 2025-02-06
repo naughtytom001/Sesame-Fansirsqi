@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.text.TextUtils;
 import java.text.Collator;
 import java.util.ArrayList;

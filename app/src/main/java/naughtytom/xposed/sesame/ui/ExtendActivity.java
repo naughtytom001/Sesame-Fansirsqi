@@ -1,12 +1,12 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ToastUtil;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ToastUtil;
 /**
  * 扩展功能页面
  */

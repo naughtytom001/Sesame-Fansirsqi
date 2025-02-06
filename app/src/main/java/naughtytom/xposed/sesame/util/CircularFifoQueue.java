@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import androidx.annotation.NonNull;
 import java.io.IOException;
 import java.io.ObjectInputStream;

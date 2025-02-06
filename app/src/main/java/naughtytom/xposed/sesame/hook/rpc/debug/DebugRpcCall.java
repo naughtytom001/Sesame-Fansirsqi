@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.hook.rpc.debug;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.hook.rpc.debug;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class DebugRpcCall {
     private static final String version = "2.0";
     public static String queryBaseinfo() {

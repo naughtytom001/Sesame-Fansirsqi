@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.data;
+package naughtytom.xposed.sesame.data;
 import java.util.HashMap;
 import java.util.Map;
 import lombok.Getter;

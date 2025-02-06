@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -11,9 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.util.Log;
 /**
  * 字符串对话框工具类。
  * 提供了显示编辑对话框和读取对话框的静态方法。

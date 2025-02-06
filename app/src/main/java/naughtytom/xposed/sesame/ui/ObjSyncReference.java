@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import lombok.Data;
 /**
  * 线程安全的引用包装器。

@@ -1,8 +1,8 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Map;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
 import lombok.Data;
 /**
  * 模型配置类，用于保存每个模型的配置信息。

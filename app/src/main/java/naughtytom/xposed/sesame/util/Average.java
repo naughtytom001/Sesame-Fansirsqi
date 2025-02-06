@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 /**平均值计算工具类*/
 public class Average {
     /** 使用一个循环队列来存储固定数量的数值*/

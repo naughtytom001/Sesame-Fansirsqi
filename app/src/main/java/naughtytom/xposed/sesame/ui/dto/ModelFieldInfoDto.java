@@ -1,7 +1,7 @@
-package fansirsqi.xposed.sesame.ui.dto;
+package naughtytom.xposed.sesame.ui.dto;
 import org.json.JSONException;
 import lombok.Data;
-import fansirsqi.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.model.ModelField;
 import java.io.Serializable;
 /**
  * 模型字段信息数据传输对象。

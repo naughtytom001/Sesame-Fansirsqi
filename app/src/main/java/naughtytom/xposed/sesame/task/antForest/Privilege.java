@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.task.antForest;
+package naughtytom.xposed.sesame.task.antForest;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.StatusUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.StatusUtil;
 public class Privilege {
     public static final String TAG = Privilege.class.getSimpleName();
     //青春特权🌸领取

@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.entity;
-import fansirsqi.xposed.sesame.util.Maps.BeachMap;
-import fansirsqi.xposed.sesame.util.Maps.IdMapManager;
+package naughtytom.xposed.sesame.entity;
+import naughtytom.xposed.sesame.util.Maps.BeachMap;
+import naughtytom.xposed.sesame.util.Maps.IdMapManager;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

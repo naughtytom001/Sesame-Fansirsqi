@@ -1,9 +1,9 @@
-![Sesame-TK](https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
+![Sesame-TK](https://socialify.git.ci/naughtytom/Sesame-TK/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fnaughtytom%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
 
-[![License](https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff&label=License&logo=gnuprivacyguard)](https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE)
-[![Latest Release](https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff&label=Releases&logo=gitlfs)](../../releases)
-[![All Releases Download](https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff&label=Downloads&logo=codefresh)](../../releases)
-[![Telegram](https://img.shields.io/badge/Sesame--TK-nul?&logo=Telegram&label=Telegram-Channel&labelColor=fff&link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame)](https://t.me/fansirsqi_xposed_sesame)
+[![License](https://img.shields.io/github/license/naughtytom/Sesame-TK?labelColor=fff&label=License&logo=gnuprivacyguard)](https://raw.githubusercontent.com/naughtytom/Sesame-TK/refs/heads/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/release/naughtytom/Sesame-TK?labelColor=fff&label=Releases&logo=gitlfs)](../../releases)
+[![All Releases Download](https://img.shields.io/github/downloads/naughtytom/Sesame-TK/total?labelColor=fff&label=Downloads&logo=codefresh)](../../releases)
+[![Telegram](https://img.shields.io/badge/Sesame--TK-nul?&logo=Telegram&label=Telegram-Channel&labelColor=fff&link=https%3A%2F%2Ft.me%2Fnaughtytom_xposed_sesame)](https://t.me/naughtytom_xposed_sesame)
 [![墙内-云湖](https://img.shields.io/badge/%E4%BA%91%E6%B9%96-%E4%BA%A4%E6%B5%81%E7%BE%A4-nul?logo=icloud&logoColor=%236F4FD0&label=%E4%BA%91%E6%B9%96&labelColor=fff&color=%236F4FD0&link=https%3A%2F%2Fyhfx.jwznb.com%2Fshare%3Fkey%3DpEGmZ1gsdoBI%26ts%3D1734597564%20)](https://yhfx.jwznb.com/share?key=pEGmZ1gsdoBI&ts=1734597564)
 
 > 懒真人版本: [Sesame](https://github.com/LazyImmortal/Sesame)
@@ -22,7 +22,7 @@
 
 🤖 代码的大部分内容是通过 `GPT-4o` 模型的辅助来完成的。
 
-🐛 `BUG`和功能建议和请提交 [ISSUE](https://github.com/Fansirsqi/Sesame-TK/issues/new/choose)
+🐛 `BUG`和功能建议和请提交 [ISSUE](https://github.com/naughtytom/Sesame-TK/issues/new/choose)
 
 🙁 相关问题，我也可能不会修复,大家轻喷，因为我不是专业的开发者，我可能真的不会修复。
 
@@ -51,9 +51,9 @@
 
 <div style="display: flex; align-items: flex-start; justify-content: center;">
 
-  <img src="https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg" alt="Screenshot 1" style="max-width: 35%; height: auto; margin-right: 10px;">
+  <img src="https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_naughtytom.xposed.sesame-edit_66964347f6135.jpg" alt="Screenshot 1" style="max-width: 35%; height: auto; margin-right: 10px;">
 
-  <img src="https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg" alt="Screenshot 2" style="max-width: 35%; height: auto;">
+  <img src="https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_naughtytom.xposed.sesame_a545f9fee2510.jpg" alt="Screenshot 2" style="max-width: 35%; height: auto;">
 
 </div>
 
@@ -135,19 +135,19 @@
 
 ## 鸣谢
 
-<a href="https://github.com/Fansirsqi/Sesame-TK/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Fansirsqi/Sesame-TK" />
+<a href="https://github.com/naughtytom/Sesame-TK/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=naughtytom/Sesame-TK" />
 </a>
 
 贡献名单使用 [contrib.rocks](https://contrib.rocks) 生成
 
 ## Star History
 
-<a href="https://star-history.com/#Fansirsqi/Sesame-TK&Timeline">
+<a href="https://star-history.com/#naughtytom/Sesame-TK&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Fansirsqi/Sesame-TK&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Fansirsqi/Sesame-TK&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Fansirsqi/Sesame-TK&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=naughtytom/Sesame-TK&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=naughtytom/Sesame-TK&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=naughtytom/Sesame-TK&type=Timeline" />
  </picture>
 </a>
 

@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.hook;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
+package naughtytom.xposed.sesame.hook;
+import naughtytom.xposed.sesame.entity.RpcEntity;
 /**
  * @author Byseven
  * @date 2025/1/6

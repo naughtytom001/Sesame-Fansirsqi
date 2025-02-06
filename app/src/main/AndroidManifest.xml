@@ -31,7 +31,7 @@
                 android:name="xposedscope"
                 android:resource="@array/xposed_scopes" />
         <activity
-                android:name="fansirsqi.xposed.sesame.ui.MainActivity"
+                android:name="naughtytom.xposed.sesame.ui.MainActivity"
                 android:resizeableActivity="true"
                 android:exported="true">
             <intent-filter>
@@ -42,7 +42,7 @@
         <activity-alias
                 android:name=".ui.MainActivityAlias"
                 android:enabled="true"
-                android:targetActivity="fansirsqi.xposed.sesame.ui.MainActivity"
+                android:targetActivity="naughtytom.xposed.sesame.ui.MainActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,23 +50,23 @@
             </intent-filter>
         </activity-alias>
         <activity
-            android:name="fansirsqi.xposed.sesame.ui.ExtendActivity"
+            android:name="naughtytom.xposed.sesame.ui.ExtendActivity"
             android:resizeableActivity="true"
              />
         <activity
-                android:name="fansirsqi.xposed.sesame.ui.NewSettingsActivity"
+                android:name="naughtytom.xposed.sesame.ui.NewSettingsActivity"
                 android:resizeableActivity="true"
                  />
         <activity
-            android:name="fansirsqi.xposed.sesame.ui.DemoSettingActivity"
+            android:name="naughtytom.xposed.sesame.ui.DemoSettingActivity"
             android:resizeableActivity="true"
             />
         <activity
-                android:name="fansirsqi.xposed.sesame.ui.SettingsActivity"
+                android:name="naughtytom.xposed.sesame.ui.SettingsActivity"
                 android:resizeableActivity="true"
                  />
         <activity
-                android:name="fansirsqi.xposed.sesame.ui.HtmlViewerActivity"
+                android:name="naughtytom.xposed.sesame.ui.HtmlViewerActivity"
                 android:resizeableActivity="true"
                  />
     </application>

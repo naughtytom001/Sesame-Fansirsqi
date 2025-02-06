@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.consumeGold;
+package naughtytom.xposed.sesame.task.consumeGold;
 import java.util.UUID;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class ConsumeGoldRpcCall {
     private static final String ALIPAY_VERSION = "10.6.80.8000";
     private static String getRequestId() {

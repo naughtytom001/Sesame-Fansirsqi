@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import org.json.JSONException;
 import org.json.JSONObject;
 public class ResUtil {

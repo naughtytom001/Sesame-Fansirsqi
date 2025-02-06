@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.util.Random;
 /**
  * 随机数工具类，提供生成随机数和随机字符串的方法。

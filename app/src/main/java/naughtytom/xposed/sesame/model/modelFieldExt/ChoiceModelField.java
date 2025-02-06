@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model.modelFieldExt;
+package naughtytom.xposed.sesame.model.modelFieldExt;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.Gravity;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
-import fansirsqi.xposed.sesame.ui.ChoiceDialog;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.ui.ChoiceDialog;
 public class ChoiceModelField extends ModelField<Integer> {
     private String[] choiceArray;
     public ChoiceModelField(String code, String name, Integer value) {

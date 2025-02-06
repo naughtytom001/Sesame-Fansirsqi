@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -6,7 +6,7 @@ import java.net.URL;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import org.json.JSONObject;
-public class FansirsqiUtil {
+public class naughtytomUtil {
   // 定义一言API的URL
   private static final String HITOKOTO_API_URL = "https://v1.hitokoto.cn/";
   private static final ExecutorService executorService = Executors.newSingleThreadExecutor(); // 创建单线程执行器

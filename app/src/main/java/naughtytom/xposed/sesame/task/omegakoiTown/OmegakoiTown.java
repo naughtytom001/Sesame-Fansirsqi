@@ -1,14 +1,14 @@
-package fansirsqi.xposed.sesame.task.omegakoiTown;
+package naughtytom.xposed.sesame.task.omegakoiTown;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import fansirsqi.xposed.sesame.data.RuntimeInfo;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.data.RuntimeInfo;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.util.Log;
 public class OmegakoiTown extends ModelTask {
     private static final String TAG = OmegakoiTown.class.getSimpleName();
     @Override

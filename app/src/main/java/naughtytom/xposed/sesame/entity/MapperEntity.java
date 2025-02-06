@@ -1,11 +1,11 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import fansirsqi.xposed.sesame.util.HanziToPinyin;
+import naughtytom.xposed.sesame.util.HanziToPinyin;
 import lombok.Data;
 
 /**

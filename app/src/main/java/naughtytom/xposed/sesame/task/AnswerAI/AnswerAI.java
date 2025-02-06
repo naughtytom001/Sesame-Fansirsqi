@@ -1,11 +1,11 @@
-package fansirsqi.xposed.sesame.task.AnswerAI;
+package naughtytom.xposed.sesame.task.AnswerAI;
 import java.util.List;
-import fansirsqi.xposed.sesame.model.Model;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.model.modelFieldExt.StringModelField;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.model.Model;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.model.modelFieldExt.StringModelField;
+import naughtytom.xposed.sesame.util.Log;
 public class AnswerAI extends Model {
     private static final String TAG = AnswerAI.class.getSimpleName();
     @Override

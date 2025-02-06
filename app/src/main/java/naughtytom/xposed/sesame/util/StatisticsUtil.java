@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import java.io.File;
 import java.util.Calendar;

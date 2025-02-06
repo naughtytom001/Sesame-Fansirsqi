@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.omegakoiTown;
+package naughtytom.xposed.sesame.task.omegakoiTown;
 import java.util.UUID;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class OmegakoiTownRpcCall {
     private static final String version = "2.0";
     private static String getUuid() {

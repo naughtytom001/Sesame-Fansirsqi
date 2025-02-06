@@ -1,19 +1,19 @@
-package fansirsqi.xposed.sesame.task.consumeGold;
+package naughtytom.xposed.sesame.task.consumeGold;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
-import fansirsqi.xposed.sesame.data.RuntimeInfo;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.model.modelFieldExt.IntegerModelField;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.data.RuntimeInfo;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.model.modelFieldExt.IntegerModelField;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 public class ConsumeGold extends ModelTask {
     private static final String TAG = ConsumeGold.class.getSimpleName();
     @Override

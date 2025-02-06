@@ -1,20 +1,20 @@
-package fansirsqi.xposed.sesame.task.antMember;
+package naughtytom.xposed.sesame.task.antMember;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.Arrays;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.ResUtil;
-import fansirsqi.xposed.sesame.util.StatusUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.StatusUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 public class AntMember extends ModelTask {
   private static final String TAG = AntMember.class.getSimpleName();
   @Override

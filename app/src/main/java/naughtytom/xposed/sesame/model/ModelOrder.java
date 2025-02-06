@@ -1,21 +1,21 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import fansirsqi.xposed.sesame.task.AnswerAI.AnswerAI;
-import fansirsqi.xposed.sesame.task.ancientTree.AncientTree;
-import fansirsqi.xposed.sesame.task.antCooperate.AntCooperate;
-import fansirsqi.xposed.sesame.task.antDodo.AntDodo;
-import fansirsqi.xposed.sesame.task.antFarm.AntFarm;
-import fansirsqi.xposed.sesame.task.antForest.AntForest;
-import fansirsqi.xposed.sesame.task.antMember.AntMember;
-import fansirsqi.xposed.sesame.task.antOcean.AntOcean;
-import fansirsqi.xposed.sesame.task.antOrchard.AntOrchard;
-import fansirsqi.xposed.sesame.task.antSports.AntSports;
-import fansirsqi.xposed.sesame.task.antStall.AntStall;
-import fansirsqi.xposed.sesame.task.consumeGold.ConsumeGold;
-import fansirsqi.xposed.sesame.task.greenFinance.GreenFinance;
-import fansirsqi.xposed.sesame.task.reserve.Reserve;
+import naughtytom.xposed.sesame.task.AnswerAI.AnswerAI;
+import naughtytom.xposed.sesame.task.ancientTree.AncientTree;
+import naughtytom.xposed.sesame.task.antCooperate.AntCooperate;
+import naughtytom.xposed.sesame.task.antDodo.AntDodo;
+import naughtytom.xposed.sesame.task.antFarm.AntFarm;
+import naughtytom.xposed.sesame.task.antForest.AntForest;
+import naughtytom.xposed.sesame.task.antMember.AntMember;
+import naughtytom.xposed.sesame.task.antOcean.AntOcean;
+import naughtytom.xposed.sesame.task.antOrchard.AntOrchard;
+import naughtytom.xposed.sesame.task.antSports.AntSports;
+import naughtytom.xposed.sesame.task.antStall.AntStall;
+import naughtytom.xposed.sesame.task.consumeGold.ConsumeGold;
+import naughtytom.xposed.sesame.task.greenFinance.GreenFinance;
+import naughtytom.xposed.sesame.task.reserve.Reserve;
 import lombok.Getter;
 public class ModelOrder {
     @SuppressWarnings("unchecked")

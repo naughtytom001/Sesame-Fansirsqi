@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
@@ -15,9 +15,9 @@ import org.json.JSONException;
 import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.util.Objects;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.TypeUtil;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.TypeUtil;
 import lombok.Data;
 @Data
 public class ModelField<T> implements Serializable {

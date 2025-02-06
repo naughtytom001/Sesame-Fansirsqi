@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

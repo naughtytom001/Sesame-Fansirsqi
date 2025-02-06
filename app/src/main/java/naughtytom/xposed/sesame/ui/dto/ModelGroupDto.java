@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui.dto;
+package naughtytom.xposed.sesame.ui.dto;
 import lombok.Data;
 import java.io.Serializable;
 /**

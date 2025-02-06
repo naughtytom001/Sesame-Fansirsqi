@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -8,9 +8,9 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Objects;
-import fansirsqi.xposed.sesame.data.Config;
-import fansirsqi.xposed.sesame.util.Maps.CooperateMap;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.data.Config;
+import naughtytom.xposed.sesame.util.Maps.CooperateMap;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
 /**
  * Utility class for handling import and export operations.
  */

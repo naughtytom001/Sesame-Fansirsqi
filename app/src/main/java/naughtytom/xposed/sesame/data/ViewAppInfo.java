@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.data;
+package naughtytom.xposed.sesame.data;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import fansirsqi.xposed.sesame.BuildConfig;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.BuildConfig;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.util.Log;
 import lombok.Getter;
 import lombok.Setter;
 /**

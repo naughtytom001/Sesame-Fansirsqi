@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.antBookRead;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.RandomUtil;
+package naughtytom.xposed.sesame.task.antBookRead;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.RandomUtil;
 /**
  * @author cwj851
  * @since 2024/01/18

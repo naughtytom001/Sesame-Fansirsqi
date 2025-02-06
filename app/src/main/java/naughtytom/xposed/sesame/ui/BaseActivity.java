@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.data.ViewAppInfo;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.data.ViewAppInfo;
 public class BaseActivity extends AppCompatActivity {
     private Toolbar toolbar;
     /**

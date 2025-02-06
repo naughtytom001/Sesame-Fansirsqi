@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui.widget;
+package naughtytom.xposed.sesame.ui.widget;
 import android.graphics.Color;
 import android.view.Gravity;
 import android.view.View;

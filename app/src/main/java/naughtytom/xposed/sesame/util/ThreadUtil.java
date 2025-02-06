@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 public class ThreadUtil {

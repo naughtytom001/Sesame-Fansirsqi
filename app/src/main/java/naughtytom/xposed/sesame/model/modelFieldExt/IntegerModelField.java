@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model.modelFieldExt;
+package naughtytom.xposed.sesame.model.modelFieldExt;
 import android.content.Context;
 import android.view.Gravity;
 import android.view.View;
@@ -6,11 +6,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Log;
 import lombok.Getter;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
-import fansirsqi.xposed.sesame.ui.StringDialog;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.ui.StringDialog;
 /**
  * Integer 类型字段类，继承自 ModelField<Integer>
  * 该类用于表示具有最小值和最大值限制的整数字段。

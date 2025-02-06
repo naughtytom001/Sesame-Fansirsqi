@@ -1,11 +1,11 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.modelFieldExt.ChoiceModelField;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.modelFieldExt.ChoiceModelField;
 public class ChoiceDialog {
     /**
      * 显示单选对话框

@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.task.AnswerAI;
+package naughtytom.xposed.sesame.task.AnswerAI;
 import java.util.List;
 public interface AnswerAIInterface {
     /**

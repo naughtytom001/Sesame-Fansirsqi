@@ -1,13 +1,13 @@
-package fansirsqi.xposed.sesame.util.Maps;
+package naughtytom.xposed.sesame.util.Maps;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.util.Collections;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.Log;
 /**
  * 抽象ID映射工具类。
  * 提供通用的线程安全的ID映射功能，并支持单例管理。

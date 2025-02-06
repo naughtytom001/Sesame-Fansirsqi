@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.task.antCooperate;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.task.antCooperate;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class AntCooperateRpcCall {
     private static final String VERSION = "20230501";
     public static String queryUserCooperatePlantList() {

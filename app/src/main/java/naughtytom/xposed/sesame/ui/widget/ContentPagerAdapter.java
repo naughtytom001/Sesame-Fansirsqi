@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui.widget;
+package naughtytom.xposed.sesame.ui.widget;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import fansirsqi.xposed.sesame.model.ModelConfig;
-import fansirsqi.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.model.ModelConfig;
+import naughtytom.xposed.sesame.model.ModelField;
 /**
  * @author Byseven
  * @date 2025/1/17

@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import fansirsqi.xposed.sesame.util.Maps.CooperateMap;
-import fansirsqi.xposed.sesame.util.Maps.IdMapManager;
+import naughtytom.xposed.sesame.util.Maps.CooperateMap;
+import naughtytom.xposed.sesame.util.Maps.IdMapManager;
 /**
  * 表示合作用户的实体类，包含 ID 和名称。
  */

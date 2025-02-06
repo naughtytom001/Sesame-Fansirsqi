@@ -1,10 +1,10 @@
-package fansirsqi.xposed.sesame.task.antFarm;
+package naughtytom.xposed.sesame.task.antFarm;
 import org.json.JSONArray;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.RandomUtil;
 public class AntFarmRpcCall {
     private static final String VERSION = "1.8.2302070202.46";
     public static String enterFarm(String farmId, String userId) {

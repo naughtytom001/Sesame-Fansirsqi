@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model.modelFieldExt;
+package naughtytom.xposed.sesame.model.modelFieldExt;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.core.content.ContextCompat;
 import com.fasterxml.jackson.core.type.TypeReference;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
-import fansirsqi.xposed.sesame.ui.StringDialog;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.ui.StringDialog;
 import java.util.ArrayList;
 import java.util.List;
 /**

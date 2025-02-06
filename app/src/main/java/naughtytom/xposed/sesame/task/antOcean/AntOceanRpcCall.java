@@ -1,10 +1,10 @@
-package fansirsqi.xposed.sesame.task.antOcean;
+package naughtytom.xposed.sesame.task.antOcean;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.RandomUtil;
 import java.util.Set;
 /**
  * @author Constanline

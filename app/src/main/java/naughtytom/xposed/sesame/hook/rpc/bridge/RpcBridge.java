@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.hook.rpc.bridge;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
+package naughtytom.xposed.sesame.hook.rpc.bridge;
+import naughtytom.xposed.sesame.entity.RpcEntity;
 public interface RpcBridge {
     RpcVersion getVersion();
     void load() throws Exception;

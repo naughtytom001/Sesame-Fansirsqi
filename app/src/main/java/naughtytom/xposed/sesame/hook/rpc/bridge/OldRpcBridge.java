@@ -1,12 +1,12 @@
-package fansirsqi.xposed.sesame.hook.rpc.bridge;
+package naughtytom.xposed.sesame.hook.rpc.bridge;
 import org.json.JSONException;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.data.RuntimeInfo;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
-import fansirsqi.xposed.sesame.hook.ApplicationHook;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
-import fansirsqi.xposed.sesame.util.*;
+import naughtytom.xposed.sesame.data.RuntimeInfo;
+import naughtytom.xposed.sesame.entity.RpcEntity;
+import naughtytom.xposed.sesame.hook.ApplicationHook;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
+import naughtytom.xposed.sesame.util.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 public class OldRpcBridge implements RpcBridge {

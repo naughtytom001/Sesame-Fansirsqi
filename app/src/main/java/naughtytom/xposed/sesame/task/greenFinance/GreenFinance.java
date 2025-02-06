@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.greenFinance;
-import static fansirsqi.xposed.sesame.task.greenFinance.GreenFinanceRpcCall.taskQuery;
-import static fansirsqi.xposed.sesame.task.greenFinance.GreenFinanceRpcCall.taskTrigger;
+package naughtytom.xposed.sesame.task.greenFinance;
+import static naughtytom.xposed.sesame.task.greenFinance.GreenFinanceRpcCall.taskQuery;
+import static naughtytom.xposed.sesame.task.greenFinance.GreenFinanceRpcCall.taskTrigger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.text.SimpleDateFormat;
@@ -8,16 +8,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TreeMap;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.StatusUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.StatusUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 /**
  * @author Constanline
  * @since 2023/09/08

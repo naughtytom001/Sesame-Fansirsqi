@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.hook.rpc.bridge;
+package naughtytom.xposed.sesame.hook.rpc.bridge;
 import lombok.Getter;
 import java.util.HashMap;
 import java.util.Map;

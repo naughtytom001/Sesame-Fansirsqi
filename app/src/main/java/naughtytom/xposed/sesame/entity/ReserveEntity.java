@@ -1,12 +1,12 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import fansirsqi.xposed.sesame.util.Maps.IdMapManager;
-import fansirsqi.xposed.sesame.util.Maps.ReserveaMap;
+import naughtytom.xposed.sesame.util.Maps.IdMapManager;
+import naughtytom.xposed.sesame.util.Maps.ReserveaMap;
 /**
  * 表示支付宝保留项的实体类，包含 ID 和名称。
  */

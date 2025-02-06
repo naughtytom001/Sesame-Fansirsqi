@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.task.antSports;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.task.antSports;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class AntSportsRpcCall {
     private static final String chInfo = "ch_appcenter__chsub_9patch",
             timeZone = "Asia\\/Shanghai", version = "3.0.1.2", alipayAppVersion = "0.0.852",

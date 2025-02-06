@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 
 import android.annotation.SuppressLint;
 import android.app.*;
@@ -10,9 +10,9 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 
-import fansirsqi.xposed.sesame.data.RuntimeInfo;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.data.RuntimeInfo;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.task.ModelTask;
 
 import lombok.Getter;
 

@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.task.antFarm;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.task.antFarm;
+import naughtytom.xposed.sesame.hook.RequestManager;
 /**
  * @author Constanline
  * @since 2023/08/04

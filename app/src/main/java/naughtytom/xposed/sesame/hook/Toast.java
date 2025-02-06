@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.hook;
+package naughtytom.xposed.sesame.hook;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.util.Log;
 public class Toast {
     private static final String TAG = Toast.class.getSimpleName();
     /**

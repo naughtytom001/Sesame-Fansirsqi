@@ -1,16 +1,16 @@
-package fansirsqi.xposed.sesame.hook.rpc.bridge;
+package naughtytom.xposed.sesame.hook.rpc.bridge;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;
 import de.robv.android.xposed.XposedHelpers;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
-import fansirsqi.xposed.sesame.hook.ApplicationHook;
-import fansirsqi.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.util.General;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Notify;
-import fansirsqi.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.entity.RpcEntity;
+import naughtytom.xposed.sesame.hook.ApplicationHook;
+import naughtytom.xposed.sesame.hook.rpc.intervallimit.RpcIntervalLimit;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.util.General;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Notify;
+import naughtytom.xposed.sesame.util.RandomUtil;
 /**
  * 新版rpc接口，支持最低支付宝版本v10.3.96.8100 记录rpc抓包，支持最低支付宝版本v10.3.96.8100
  */

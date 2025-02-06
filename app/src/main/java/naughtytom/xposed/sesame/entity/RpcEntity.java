@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import org.json.JSONException;
 import org.json.JSONObject;
 import lombok.Getter;

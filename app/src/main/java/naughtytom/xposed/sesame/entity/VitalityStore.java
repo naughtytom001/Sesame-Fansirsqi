@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import fansirsqi.xposed.sesame.util.Maps.IdMapManager;
-import fansirsqi.xposed.sesame.util.Maps.VitalityRewardsMap;
+import naughtytom.xposed.sesame.util.Maps.IdMapManager;
+import naughtytom.xposed.sesame.util.Maps.VitalityRewardsMap;
 /**
  * @author Byseven
  * @date 2025/1/20

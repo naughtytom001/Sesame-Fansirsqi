@@ -1,7 +1,7 @@
-package fansirsqi.xposed.sesame.task.antStall;
+package naughtytom.xposed.sesame.task.antStall;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.hook.RequestManager;
 import java.util.UUID;
 /**
  * @author Constanline

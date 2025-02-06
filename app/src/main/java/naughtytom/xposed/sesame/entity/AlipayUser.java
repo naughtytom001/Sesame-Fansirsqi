@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.entity;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
+package naughtytom.xposed.sesame.entity;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

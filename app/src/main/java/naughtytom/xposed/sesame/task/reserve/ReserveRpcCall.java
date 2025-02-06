@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.task.reserve;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.task.reserve;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class ReserveRpcCall {
     private static final String VERSION = "20230501";
     private static final String VERSION2 = "20230522";

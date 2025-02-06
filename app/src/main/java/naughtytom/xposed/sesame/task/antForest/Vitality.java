@@ -1,15 +1,15 @@
-package fansirsqi.xposed.sesame.task.antForest;
+package naughtytom.xposed.sesame.task.antForest;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
-import fansirsqi.xposed.sesame.entity.VitalityStore.ExchangeStatus;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.IdMapManager;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.Maps.VitalityRewardsMap;
-import fansirsqi.xposed.sesame.util.ResUtil;
-import fansirsqi.xposed.sesame.util.StatusUtil;
+import naughtytom.xposed.sesame.entity.VitalityStore.ExchangeStatus;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.IdMapManager;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.Maps.VitalityRewardsMap;
+import naughtytom.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.StatusUtil;
 /**
  * @author Byseven
  * @see  2025/1/20

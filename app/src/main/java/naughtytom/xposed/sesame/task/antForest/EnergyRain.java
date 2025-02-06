@@ -1,13 +1,13 @@
-package fansirsqi.xposed.sesame.task.antForest;
-import static fansirsqi.xposed.sesame.task.antForest.AntForest.giveEnergyRainList;
+package naughtytom.xposed.sesame.task.antForest;
+import static naughtytom.xposed.sesame.task.antForest.AntForest.giveEnergyRainList;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.util.Set;
-import fansirsqi.xposed.sesame.hook.Toast;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.ResUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.hook.Toast;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 public class EnergyRain {
     private static final String TAG = EnergyRain.class.getSimpleName();
     public static void startEnergyRain() {

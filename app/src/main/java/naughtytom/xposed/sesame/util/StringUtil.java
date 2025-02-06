@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;

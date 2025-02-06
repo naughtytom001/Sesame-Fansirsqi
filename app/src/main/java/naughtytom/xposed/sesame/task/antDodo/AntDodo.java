@@ -1,23 +1,23 @@
-package fansirsqi.xposed.sesame.task.antDodo;
+package naughtytom.xposed.sesame.task.antDodo;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
-import fansirsqi.xposed.sesame.entity.AlipayUser;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelGroup;
-import fansirsqi.xposed.sesame.model.modelFieldExt.BooleanModelField;
-import fansirsqi.xposed.sesame.model.modelFieldExt.ChoiceModelField;
-import fansirsqi.xposed.sesame.model.modelFieldExt.SelectModelField;
-import fansirsqi.xposed.sesame.task.ModelTask;
-import fansirsqi.xposed.sesame.task.TaskCommon;
-import fansirsqi.xposed.sesame.task.antFarm.AntFarm.TaskStatus;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.ResUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.entity.AlipayUser;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelGroup;
+import naughtytom.xposed.sesame.model.modelFieldExt.BooleanModelField;
+import naughtytom.xposed.sesame.model.modelFieldExt.ChoiceModelField;
+import naughtytom.xposed.sesame.model.modelFieldExt.SelectModelField;
+import naughtytom.xposed.sesame.task.ModelTask;
+import naughtytom.xposed.sesame.task.TaskCommon;
+import naughtytom.xposed.sesame.task.antFarm.AntFarm.TaskStatus;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.ResUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 public class AntDodo extends ModelTask {
     private static final String TAG = AntDodo.class.getSimpleName();
     @Override

@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.task.AnswerAI;
-import fansirsqi.xposed.sesame.util.Log;
+package naughtytom.xposed.sesame.task.AnswerAI;
+import naughtytom.xposed.sesame.util.Log;
 import okhttp3.*;
 import org.json.JSONObject;
 import java.util.List;
-import static fansirsqi.xposed.sesame.util.JsonUtil.getValueByPath;
+import static naughtytom.xposed.sesame.util.JsonUtil.getValueByPath;
 /**
  * GenAI帮助类，用于与GenAI接口交互以获取AI回答
  * 支持单条文本问题及带有候选答案列表的问题请求

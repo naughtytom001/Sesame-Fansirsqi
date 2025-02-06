@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.task;
+package naughtytom.xposed.sesame.task;
 import android.os.Build;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -6,14 +6,14 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.model.Model;
-import fansirsqi.xposed.sesame.model.ModelFields;
-import fansirsqi.xposed.sesame.model.ModelType;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Notify;
-import fansirsqi.xposed.sesame.util.StringUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.model.Model;
+import naughtytom.xposed.sesame.model.ModelFields;
+import naughtytom.xposed.sesame.model.ModelType;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Notify;
+import naughtytom.xposed.sesame.util.StringUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 import lombok.Getter;
 public abstract class ModelTask extends Model {
     // 存储所有主任务与线程的映射

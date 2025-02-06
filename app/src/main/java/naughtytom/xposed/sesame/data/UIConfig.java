@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.data;
+package naughtytom.xposed.sesame.data;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.Log;
 import lombok.Data;
 /**
  * UI 配置类，用于管理应用的 UI 配置。

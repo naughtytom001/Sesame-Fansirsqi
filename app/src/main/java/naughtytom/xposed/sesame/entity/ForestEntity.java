@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import java.util.Arrays;
 import java.util.List;
 public class ForestEntity extends MapperEntity{

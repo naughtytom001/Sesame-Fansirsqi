@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.hook.rpc.intervallimit;
+package naughtytom.xposed.sesame.hook.rpc.intervallimit;
 import lombok.Data;
 @Data
 public class DefaultIntervalLimit implements IntervalLimit {

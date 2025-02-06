@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.antOrchard;
+package naughtytom.xposed.sesame.task.antOrchard;
 import java.util.List;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class AntOrchardRpcCall {
     private static final String VERSION = "0.1.2401111000.31";
     public static String orchardIndex() {

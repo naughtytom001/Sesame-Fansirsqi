@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -21,21 +21,21 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.data.RunType;
-import fansirsqi.xposed.sesame.data.UIConfig;
-import fansirsqi.xposed.sesame.data.ViewAppInfo;
-import fansirsqi.xposed.sesame.entity.FriendWatch;
-import fansirsqi.xposed.sesame.entity.UserEntity;
-import fansirsqi.xposed.sesame.model.SelectModelFieldFunc;
-import fansirsqi.xposed.sesame.util.FansirsqiUtil;
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.PermissionUtil;
-import fansirsqi.xposed.sesame.util.StatisticsUtil;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
-import fansirsqi.xposed.sesame.util.ToastUtil;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.data.RunType;
+import naughtytom.xposed.sesame.data.UIConfig;
+import naughtytom.xposed.sesame.data.ViewAppInfo;
+import naughtytom.xposed.sesame.entity.FriendWatch;
+import naughtytom.xposed.sesame.entity.UserEntity;
+import naughtytom.xposed.sesame.model.SelectModelFieldFunc;
+import naughtytom.xposed.sesame.util.naughtytomUtil;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.PermissionUtil;
+import naughtytom.xposed.sesame.util.StatisticsUtil;
+import naughtytom.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.ToastUtil;
 public class MainActivity extends BaseActivity {
     private boolean hasPermissions = false;
     private boolean isClick = false;
@@ -96,9 +96,9 @@ public class MainActivity extends BaseActivity {
                                     }
                                     viewHandler.removeCallbacks(titleRunner);
                                     if (isClick) {
-                                        // 调用 FansirsqiUtil 获取句子
-                                        FansirsqiUtil.getOneWord(
-                                                new FansirsqiUtil.OneWordCallback() {
+                                        // 调用 naughtytomUtil 获取句子
+                                        naughtytomUtil.getOneWord(
+                                                new naughtytomUtil.OneWordCallback() {
                                                     @Override
                                                     public void onSuccess(String result) {
                                                         runOnUiThread(() -> updateOneWord(result, oneWord)); // 在主线程中更新UI
@@ -131,9 +131,9 @@ public class MainActivity extends BaseActivity {
         }
         StatisticsUtil.load();
         tvStatistics.setText(StatisticsUtil.getText());
-        // 调用 FansirsqiUtil 获取句子
-        FansirsqiUtil.getOneWord(
-                new FansirsqiUtil.OneWordCallback() {
+        // 调用 naughtytomUtil 获取句子
+        naughtytomUtil.getOneWord(
+                new naughtytomUtil.OneWordCallback() {
                     @Override
                     public void onSuccess(String result) {
                         runOnUiThread(() -> oneWord.setText(result)); // 在主线程中更新UI
@@ -228,7 +228,7 @@ public class MainActivity extends BaseActivity {
         } else if (id == R.id.btn_other_log) {
             data += Files.getOtherLogFile().getAbsolutePath();
         } else if (id == R.id.btn_github) {
-            data = "https://github.com/Fansirsqi/Sesame-TK";
+            data = "https://github.com/naughtytom/Sesame-TK";
         } else if (id == R.id.btn_settings) {
             selectSettingUid();
             return;

@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -12,8 +12,8 @@ import android.os.Environment;
 import android.os.PowerManager;
 import android.provider.Settings;
 import androidx.appcompat.app.AppCompatActivity;
-import fansirsqi.xposed.sesame.hook.ApplicationHook;
-import fansirsqi.xposed.sesame.task.antForest.AntForestRpcCall;
+import naughtytom.xposed.sesame.hook.ApplicationHook;
+import naughtytom.xposed.sesame.task.antForest.AntForestRpcCall;
 /** 权限工具类，用于检查和请求所需权限。 */
 public class PermissionUtil {
   private static final String TAG = AntForestRpcCall.class.getSimpleName();

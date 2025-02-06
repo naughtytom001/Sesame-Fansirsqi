@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.hook.rpc.intervallimit;
+package naughtytom.xposed.sesame.hook.rpc.intervallimit;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.concurrent.ThreadLocalRandom;

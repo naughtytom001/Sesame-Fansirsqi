@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.annotation.SuppressLint;
 import android.os.Environment;
 import java.io.Closeable;

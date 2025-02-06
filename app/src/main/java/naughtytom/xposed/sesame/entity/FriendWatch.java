@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,12 +9,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.JsonUtil;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.Maps.UserMap;
-import fansirsqi.xposed.sesame.util.StringUtil;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.JsonUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Maps.UserMap;
+import naughtytom.xposed.sesame.util.StringUtil;
+import naughtytom.xposed.sesame.util.TimeUtil;
 
 public class FriendWatch extends MapperEntity {
 

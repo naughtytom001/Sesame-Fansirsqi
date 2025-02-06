@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model;
+package naughtytom.xposed.sesame.model;
 import java.util.LinkedHashMap;
 import java.util.Map;
 public interface SelectModelFieldFunc {

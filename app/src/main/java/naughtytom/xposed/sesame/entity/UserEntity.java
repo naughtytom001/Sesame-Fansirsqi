@@ -1,7 +1,7 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import lombok.Data;
 import lombok.Getter;
-import fansirsqi.xposed.sesame.util.StringUtil;
+import naughtytom.xposed.sesame.util.StringUtil;
 /**
  * 表示一个用户实体，包含用户的基本信息。
  */

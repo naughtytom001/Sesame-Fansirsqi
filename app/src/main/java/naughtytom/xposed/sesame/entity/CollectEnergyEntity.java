@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import lombok.Getter;
 import lombok.Setter;
 import org.json.JSONObject;

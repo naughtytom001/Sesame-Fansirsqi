@@ -1,5 +1,5 @@
-package fansirsqi.xposed.sesame.task.ancientTree;
-import fansirsqi.xposed.sesame.hook.RequestManager;
+package naughtytom.xposed.sesame.task.ancientTree;
+import naughtytom.xposed.sesame.hook.RequestManager;
 public class AncientTreeRpcCall {
     private static final String VERSION = "20230522";
     public static String homePage(String selectCityCode) {

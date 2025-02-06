@@ -1,8 +1,8 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.content.Context;
 import android.content.res.Configuration;
 import java.util.Locale;
-import fansirsqi.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.model.BaseModel;
 /**
  * 语言工具类，用于设置应用程序的语言环境。
  */

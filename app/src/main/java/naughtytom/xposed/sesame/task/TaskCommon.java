@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.util.TimeUtil;
+package naughtytom.xposed.sesame.task;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.util.TimeUtil;
 /**
  * 通用任务工具类
  * <p>

@@ -1,7 +1,7 @@
-package fansirsqi.xposed.sesame.task;
+package naughtytom.xposed.sesame.task;
 import android.os.Build;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 import java.util.Map;
 import java.util.concurrent.*;
 /**

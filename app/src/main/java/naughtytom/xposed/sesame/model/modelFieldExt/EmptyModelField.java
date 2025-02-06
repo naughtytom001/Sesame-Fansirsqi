@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.model.modelFieldExt;
+package naughtytom.xposed.sesame.model.modelFieldExt;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Color;
@@ -10,8 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import androidx.core.content.ContextCompat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.ModelField;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.ModelField;
 public class EmptyModelField extends ModelField<Object> {
     private final Runnable clickRunner;
     public EmptyModelField(String code, String name) {

@@ -1,9 +1,9 @@
-package fansirsqi.xposed.sesame.task;
+package naughtytom.xposed.sesame.task;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
-import fansirsqi.xposed.sesame.util.Log;
-import fansirsqi.xposed.sesame.util.ThreadUtil;
+import naughtytom.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.ThreadUtil;
 import lombok.Getter;
 public abstract class BaseTask {
     @Getter

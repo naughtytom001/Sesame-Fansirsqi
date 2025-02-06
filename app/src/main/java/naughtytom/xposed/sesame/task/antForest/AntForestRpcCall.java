@@ -1,15 +1,15 @@
-package fansirsqi.xposed.sesame.task.antForest;
+package naughtytom.xposed.sesame.task.antForest;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.List;
 import java.util.UUID;
-import fansirsqi.xposed.sesame.entity.AlipayVersion;
-import fansirsqi.xposed.sesame.entity.RpcEntity;
-import fansirsqi.xposed.sesame.hook.ApplicationHook;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.RandomUtil;
-import fansirsqi.xposed.sesame.util.StringUtil;
+import naughtytom.xposed.sesame.entity.AlipayVersion;
+import naughtytom.xposed.sesame.entity.RpcEntity;
+import naughtytom.xposed.sesame.hook.ApplicationHook;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.RandomUtil;
+import naughtytom.xposed.sesame.util.StringUtil;
 /**
  * 森林 RPC 调用类
  */

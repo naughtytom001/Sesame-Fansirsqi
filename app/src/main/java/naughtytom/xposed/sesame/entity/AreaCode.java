@@ -1,11 +1,11 @@
-package fansirsqi.xposed.sesame.entity;
+package naughtytom.xposed.sesame.entity;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
-import fansirsqi.xposed.sesame.util.Files;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.util.Files;
+import naughtytom.xposed.sesame.util.Log;
 /**
  * 区域代码类，继承自IdAndName。
  * 该类用于管理城市代码和城市名称。

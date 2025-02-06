@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.ui;
+package naughtytom.xposed.sesame.ui;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.webkit.WebSettings;

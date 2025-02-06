@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.util;
+package naughtytom.xposed.sesame.util;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Handler;
@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import fansirsqi.xposed.sesame.R;
-import fansirsqi.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.R;
+import naughtytom.xposed.sesame.model.BaseModel;
 public class ToastUtil {
     private static Context appContext;
     /**

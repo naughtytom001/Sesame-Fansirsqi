@@ -1,4 +1,4 @@
-package fansirsqi.xposed.sesame.task;
+package naughtytom.xposed.sesame.task;
 /**
  * ChildTaskExecutor 接口用于定义管理子任务的方法。
  * 通过此接口可以对子任务进行添加、移除、清除操作。

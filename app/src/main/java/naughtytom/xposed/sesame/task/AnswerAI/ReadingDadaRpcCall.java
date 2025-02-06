@@ -1,6 +1,6 @@
-package fansirsqi.xposed.sesame.task.AnswerAI;
-import fansirsqi.xposed.sesame.hook.RequestManager;
-import fansirsqi.xposed.sesame.util.StringUtil;
+package naughtytom.xposed.sesame.task.AnswerAI;
+import naughtytom.xposed.sesame.hook.RequestManager;
+import naughtytom.xposed.sesame.util.StringUtil;
 /**
  * @author Constanline
  * @since 2023/08/22

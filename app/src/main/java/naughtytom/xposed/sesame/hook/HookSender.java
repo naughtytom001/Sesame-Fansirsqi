@@ -1,11 +1,11 @@
-package fansirsqi.xposed.sesame.hook;
+package naughtytom.xposed.sesame.hook;
 import androidx.annotation.NonNull;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.IOException;
 import java.util.Map;
-import fansirsqi.xposed.sesame.model.BaseModel;
-import fansirsqi.xposed.sesame.util.Log;
+import naughtytom.xposed.sesame.model.BaseModel;
+import naughtytom.xposed.sesame.util.Log;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.MediaType;
