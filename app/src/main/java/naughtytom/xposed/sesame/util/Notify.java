@@ -23,7 +23,7 @@ public class Notify {
     public static Context context;
     private static final int NOTIFICATION_ID = 99;
     private static final int ERROR_NOTIFICATION_ID = 98;
-    private static final String CHANNEL_ID = "fansirsqi.xposed.sesame.ANTFOREST_NOTIFY_CHANNEL";
+    private static final String CHANNEL_ID = "naughtytom.xposed.sesame.ANTFOREST_NOTIFY_CHANNEL";
     private static NotificationManager mNotifyManager;
     private static Notification.Builder builder;
 

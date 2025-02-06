@@ -62,7 +62,7 @@ android {
     }
 
     // 配置 Android 构建设置
-    namespace "fansirsqi.xposed.sesame"
+    namespace "naughtytom.xposed.sesame"
     compileSdk 34
     defaultConfig {
         minSdk 21

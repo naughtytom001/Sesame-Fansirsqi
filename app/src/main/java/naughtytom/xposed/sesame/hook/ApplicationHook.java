@@ -168,7 +168,7 @@ public class ApplicationHook implements IXposedHookLoadPackage {
     }
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) {
-        if ("fansirsqi.xposed.sesame".equals(lpparam.packageName)) {
+        if ("naughtytom.xposed.sesame".equals(lpparam.packageName)) {
             try {
                 XposedHelpers.callStaticMethod(lpparam.classLoader.loadClass(ViewAppInfo.class.getName()), "setRunTypeByCode", RunType.MODEL.getCode());
             } catch (ClassNotFoundException e) {
@@ -854,7 +854,7 @@ public class ApplicationHook implements IXposedHookLoadPackage {
                         break;
                     case "com.eg.android.AlipayGphone.sesame.status":
                         try {
-                            context.sendBroadcast(new Intent("fansirsqi.xposed.sesame.status"));
+                            context.sendBroadcast(new Intent("naughtytom.xposed.sesame.status"));
                         } catch (Throwable th) {
                             Log.runtime(TAG, "sesame sendBroadcast status err:");
                             Log.printStackTrace(TAG, th);

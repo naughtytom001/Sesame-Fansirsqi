@@ -24,6 +24,6 @@ public class General {
      * H5页面的类名。
      */
     public static final String H5PAGE_NAME = "com.alipay.mobile.h5container.api.H5Page";
-    public static final String MODULE_PACKAGE_NAME = "fansirsqi.xposed.sesame";
-    public static final String vitalityExchangeToday = "fansirsqi.xposed.sesame.XposedEntry";
+    public static final String MODULE_PACKAGE_NAME = "naughtytom.xposed.sesame";
+    public static final String vitalityExchangeToday = "naughtytom.xposed.sesame.XposedEntry";
 }
