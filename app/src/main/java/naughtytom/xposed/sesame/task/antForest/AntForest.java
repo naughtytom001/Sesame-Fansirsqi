@@ -1792,7 +1792,7 @@ public class AntForest extends ModelTask {
                         if (ResUtil.checkResCode(giveResultJo)) {
                             Log.forest("赠送道具🎭[" + UserMap.getMaskName(targetUserId) + "]#" + propName);
                         } else {
-                            Log.record(giveResultJo.getString("resultDesc"));
+                            Log.record(giveResultJo.optString("resultDesc"));
                             Log.runtime(giveResultJo.toString());
                         }
                         // 如果持有数量大于1或道具列表中有多于一个道具，则继续赠送
