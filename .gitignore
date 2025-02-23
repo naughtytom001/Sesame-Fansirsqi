@@ -67,3 +67,7 @@ demo/*
 /.vscode/settings.json
 *.REST
 *.txt
+# 忽略 keystore 文件
+/app/release.keystore
+/keystore.jks.base64
+/app/keystore.jks  # 如果存在其他名称的 keystore

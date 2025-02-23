@@ -6,7 +6,26 @@ on:
   pull_request:
     branches: ["develop"]
   workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
+      - name: Decode Keystore
+        run: |
+          echo "${{ secrets.ANDROID_SIGNING_KEY }}" > keystore.jks.base64
+          base64 -d keystore.jks.base64 > app/keystore.jks
+          rm -f keystore.jks.base64  # 清理临时文件
+
+      - name: Build Release
+        run: ./gradlew assembleRelease
+        env:
+          KEYSTORE_PATH: app/keystore.jks
+          ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
 jobs:
   build:
     runs-on: ubuntu-latest

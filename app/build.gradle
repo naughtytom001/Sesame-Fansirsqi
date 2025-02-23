@@ -89,10 +89,10 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('./byseven.jks')
-            storePassword project.properties.MY_APP_STORE_PASSWORD
-            keyAlias project.properties.MY_APP_KEY_ALIAS
-            keyPassword project.properties.MY_APP_KEY_PASSWORD
+            storeFile file(System.getenv("KEYSTORE_PATH") ?: "debug.keystore")  // 优先使用 CI 环境路径
+            storePassword System.getenv("ANDROID_STORE_PASSWORD")
+            keyAlias System.getenv("ANDROID_KEY_ALIAS")
+            keyPassword System.getenv("ANDROID_KEY_PASSWORD")
         }
         debug {
 
